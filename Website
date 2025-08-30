@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prof. Dr. Tariq Abbas | Al Qalb Darul Shifa - Multan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-height: 100px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    h2 {
+      color: #003366;
+      margin-top: 30px;
+    }
+    .container {
+      width: 80%;
+      max-width: 1000px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    ul {
+      line-height: 1.8;
+    }
+    .contact {
+      background: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 0 0 10px 10px;
+    }
+    .contact a {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      background: #e9ecef;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Clinic Logo">
+    <h1>Prof. Dr. Tariq Abbas</h1>
+    <p>MBBS (KE), MRCP (UK), FRCP (Glasgow)</p>
+    <h2>Al Qalb Darul Shifa - Multan</h2>
+  </header>
+
+  <div class="container">
+    <h2>About Our Clinic</h2>
+    <p>Our clinic offers a full range of diagnostic and treatment services, including:</p>
+    <ul>
+      <li>Pharmacy Support</li>
+      <li>3D/4D and Stress Echocardiography (ECHO)</li>
+      <li>Electrocardiography (ECG)</li>
+      <li>24-Hour Ambulatory BP and Holter Monitoring</li>
+      <li>Cardiac Intervention</li>
+      <li>Expert Medical Consultations by the Best Cardiologists in the Region</li>
+    </ul>
+
+    <h2>Appointments</h2>
+    <p>For appointments with <strong>Prof. Dr. Tariq Abbas</strong>, please contact us:</p>
+    <p><strong>Phone:</strong> <a href="tel:+923457311544">+92 345 7311544</a></p>
+    <p><strong>Email:</strong> <a href="mailto:alqalbdarulshifa@gmail.com">alqalbdarulshifa@gmail.com</a></p>
+
+    <h2>Location & Online Info</h2>
+    <p>Visit our clinic in Multan, or check more details here: <a href="https://share.google/BArzwAxnqtz5U3ptr" target="_blank">Google Maps Link</a></p>
+  </div>
+
+  <div class="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: <a href="tel:+923457311544">+92 345 7311544</a></p>
+    <p>Email: <a href="mailto:alqalbdarulshifa@gmail.com">alqalbdarulshifa@gmail.com</a></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Al Qalb Darul Shifa - Multan | Designed for Prof. Dr. Tariq Abbas</p>
+  </footer>
+</body>
+</html>
