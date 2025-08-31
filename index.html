@@ -53,6 +53,17 @@
   }
   </script>
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4CMYDKZN0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Q4CMYDKZN0');
+  </script>
+
+  <!-- Styles -->
   <style>
     body {
       font-family: "Segoe UI", Arial, sans-serif;
@@ -64,20 +75,20 @@
     }
 
     header {
-      background: linear-gradient(135deg, #003366, #002244);
+      background: linear-gradient(135deg, #003366, #001a33);
       color: white;
       text-align: center;
-      padding: 40px 20px;
+      padding: 50px 20px;
     }
 
     header img {
-      max-height: 90px;
+      max-height: 100px;
       margin-bottom: 15px;
     }
 
     header h1 {
       margin: 0;
-      font-size: 32px;
+      font-size: 36px;
       font-weight: bold;
     }
 
@@ -87,11 +98,11 @@
     }
 
     .tagline {
-      margin-top: 10px;
+      margin-top: 12px;
       font-size: 15px;
       background: #ffcc00;
       display: inline-block;
-      padding: 5px 12px;
+      padding: 6px 14px;
       border-radius: 20px;
       color: #000;
       font-weight: bold;
@@ -100,47 +111,53 @@
     .container {
       width: 85%;
       max-width: 1100px;
-      margin: 30px auto;
+      margin: 40px auto;
       background: white;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
     }
 
     h2 {
       color: #003366;
       border-left: 5px solid #ffcc00;
-      padding-left: 10px;
-      margin-top: 25px;
+      padding-left: 12px;
+      margin-top: 30px;
+      font-size: 24px;
     }
 
     ul {
-      padding-left: 20px;
+      padding-left: 22px;
     }
 
     .btn {
       display: inline-block;
-      margin-top: 15px;
-      padding: 12px 20px;
+      margin-top: 18px;
+      padding: 12px 22px;
       background: #003366;
       color: white;
       text-decoration: none;
       border-radius: 8px;
       font-weight: bold;
-      transition: 0.3s;
+      transition: 0.3s ease;
     }
 
     .btn:hover {
-      background: #002244;
+      background: #001a33;
     }
 
     .contact {
       background: #003366;
       color: white;
       text-align: center;
-      padding: 25px;
-      margin-top: 30px;
-      border-radius: 0 0 12px 12px;
+      padding: 35px 20px;
+      margin-top: 40px;
+      border-radius: 0 0 14px 14px;
+    }
+
+    .contact h2 {
+      border: none;
+      color: #ffcc00;
     }
 
     .contact a {
@@ -151,16 +168,16 @@
 
     footer {
       text-align: center;
-      padding: 15px;
+      padding: 18px;
       font-size: 14px;
       background: #e9ecef;
-      margin-top: 20px;
+      margin-top: 25px;
       color: #555;
     }
 
     @media (max-width: 768px) {
-      header h1 { font-size: 26px; }
-      .container { width: 92%; padding: 20px; }
+      header h1 { font-size: 28px; }
+      .container { width: 92%; padding: 22px; }
     }
   </style>
 </head>
@@ -200,8 +217,8 @@
   <div class="contact">
     <h2>Contact Us</h2>
     <p><strong>For appointments contact us at:</strong></p>
-    <p>Phone: <a href="tel:+923457311544">+92 345 7311544</a></p>
-    <p>Email: <a href="mailto:alqalbdarulshifa@gmail.com">alqalbdarulshifa@gmail.com</a></p>
+    <p>📞 Phone: <a href="tel:+923457311544">+92 345 7311544</a></p>
+    <p>✉️ Email: <a href="mailto:alqalbdarulshifa@gmail.com">alqalbdarulshifa@gmail.com</a></p>
   </div>
 
   <footer>
