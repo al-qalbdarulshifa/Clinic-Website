@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prof. Dr. Tariq Abbas | Al Qalb Darul Shifa - Multan</title>
 
+  <!-- Preload logo for faster rendering -->
+  <link rel="preload" as="image" href="logo.jpg">
+
   <!-- SEO Meta Tags -->
   <meta name="description" content="Book an appointment with Prof. Dr. Tariq Abbas, Professor of Cardiology at Al Qalb Darul Shifa - Multan. Expert in cardiology, echocardiography, ECG, BP monitoring, and cardiac interventions.">
   <meta name="keywords" content="Prof Dr Tariq Abbas, Cardiologist Multan, Al Qalb Darul Shifa, Heart Specialist Multan, Cardiology Clinic Multan, Best Cardiologist Multan, Preferred Provider">
@@ -74,9 +77,9 @@
       font-weight: bold;
     }
 
-    /* Make header clinic name clearly visible */
+    /* Clinic name visibility */
     .header-text h2 {
-      color: #ffcc00;   /* Gold for visibility */
+      color: #ffcc00;
       margin-top: 10px;
       font-size: 22px;
       font-weight: 600;
@@ -90,6 +93,7 @@
     .header-logo img {
       max-height: 240px; /* Bigger logo */
       width: auto;
+      height: auto; /* Ensure proportions */
     }
 
     .container {
@@ -103,7 +107,7 @@
     }
 
     h2 {
-      color: #003366;  /* Blue for section headings */
+      color: #003366;
       border-left: 5px solid #ffcc00;
       padding-left: 12px;
       margin-top: 30px;
@@ -183,7 +187,8 @@
       <h2>Al Qalb Darul Shifa - Multan</h2>
     </div>
     <div class="header-logo">
-      <img src="logo.jpg" alt="Clinic Logo">
+      <!-- Add width/height so layout doesn’t shift -->
+      <img src="logo.jpg" alt="Clinic Logo" width="240" height="240">
     </div>
   </header>
 
@@ -200,7 +205,8 @@
       <li>Pharmacy Support</li>
       <li>3D/4D and Stress Echocardiography (ECHO)</li>
       <li>Electrocardiography (ECG)</li>
-      <li>24-Hour Ambulatory BP & Holter Monitoring</li>
+      <li>24-Hour Ambulatory BP Moniotoring</li>
+      <li>24 Hour Holter Monitoring</li>
       <li>Cardiac Intervention</li>
       <li>Expert Consultations by Renowned Cardiologists</li>
     </ul>
