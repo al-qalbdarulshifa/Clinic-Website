@@ -17,49 +17,12 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://yourwebsite.github.io">
 
-  <!-- Structured Data (JSON-LD for Google Rich Results) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalClinic",
-    "name": "Al Qalb Darul Shifa - Multan",
-    "image": "https://yourwebsite.github.io/logo.jpg",
-    "url": "https://yourwebsite.github.io",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Clinic Address Here",
-      "addressLocality": "Multan",
-      "addressRegion": "Punjab",
-      "addressCountry": "Pakistan"
-    },
-    "medicalSpecialty": "Cardiology",
-    "provider": {
-      "@type": "Physician",
-      "name": "Prof. Dr. Tariq Abbas",
-      "jobTitle": "Professor of Cardiology",
-      "affiliation": "Al Qalb Darul Shifa - Multan",
-      "telephone": "+92 345 7311544",
-      "email": "alqalbdarulshifa@gmail.com",
-      "medicalSpecialty": "Cardiology",
-      "sameAs": [
-        "https://share.google/BArzwAxnqtz5U3ptr"
-      ]
-    },
-    "founder": {
-      "@type": "Physician",
-      "name": "Prof. Dr. Tariq Abbas"
-    },
-    "keywords": "Prof Dr Tariq Abbas, Cardiologist Multan, Best Heart Specialist Multan, Preferred Provider"
-  }
-  </script>
-
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4CMYDKZN0"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-Q4CMYDKZN0');
   </script>
 
@@ -77,27 +40,30 @@
     header {
       background: linear-gradient(135deg, #003366, #001a33);
       color: white;
-      text-align: center;
-      padding: 50px 20px;
+      padding: 40px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
     }
 
-    header img {
-      max-height: 100px;
-      margin-bottom: 15px;
+    .header-text {
+      flex: 1;
+      min-width: 250px;
     }
 
-    header h1 {
+    .header-text h1 {
       margin: 0;
       font-size: 36px;
       font-weight: bold;
     }
 
-    header p {
+    .header-text p {
       margin: 5px 0;
       font-size: 18px;
     }
 
-    .tagline {
+    .header-text .tagline {
       margin-top: 12px;
       font-size: 15px;
       background: #ffcc00;
@@ -106,6 +72,16 @@
       border-radius: 20px;
       color: #000;
       font-weight: bold;
+    }
+
+    .header-logo {
+      flex: 0 0 auto;
+      margin-left: 30px;
+    }
+
+    .header-logo img {
+      max-height: 160px; /* Bigger logo */
+      width: auto;
     }
 
     .container {
@@ -176,19 +152,31 @@
     }
 
     @media (max-width: 768px) {
-      header h1 { font-size: 28px; }
-      .container { width: 92%; padding: 22px; }
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .header-logo {
+        margin: 20px 0 0;
+      }
+      .header-logo img {
+        max-height: 120px;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.jpg" alt="Clinic Logo">
-    <h1>Prof. Dr. Tariq Abbas</h1>
-    <p><strong>Professor of Cardiology</strong></p>
-    <p>MBBS (KE), MRCP (UK), FRCP (Glasgow)</p>
-    <span class="tagline">Preferred Provider</span>
-    <h2>Al Qalb Darul Shifa - Multan</h2>
+    <div class="header-text">
+      <h1>Prof. Dr. Tariq Abbas</h1>
+      <p><strong>Professor of Cardiology</strong></p>
+      <p>MBBS (KE), MRCP (UK), FRCP (Glasgow)</p>
+      <span class="tagline">Preferred Provider</span>
+      <h2>Al Qalb Darul Shifa - Multan</h2>
+    </div>
+    <div class="header-logo">
+      <img src="logo.jpg" alt="Clinic Logo">
+    </div>
   </header>
 
   <div class="container">
